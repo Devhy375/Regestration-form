@@ -1,0 +1,193 @@
+* { 
+    margin: 0;
+    border: border-box;
+   
+}
+header {
+    background-color: rgb(32, 25, 25);
+    height: 80px;
+    color: rgb(56, 207, 174);
+}
+.topic {
+    height: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Raleway;
+}
+.sec1 {
+    background-color: rgb(42, 128, 109);
+    height: 40px;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.box1 {
+    height: 40px;
+    background-color: rgb(32, 25, 25);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: rgb(32, 25, 25);
+    margin-right: 360px;
+}
+.subtopic {
+    color: rgb(56, 207, 174);
+    font-family: Raleway;
+    padding-top: 4px;
+    white-space: nowrap;
+}
+main {
+    font-family: Raleway;
+    position: fixed;
+    background-color: black;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1%;
+}
+.sec2 {
+    background-color: rgb(56, 207, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    height: 75%;
+    width: 40%;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.firstname {
+    display: flex;
+    flex-direction: row; 
+    flex: 1;
+}
+.fnbox {
+    padding-left: 10px;
+}
+.lastname {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.lnbox {
+    padding-left: 10px;
+}
+.email-id {
+    display: flex;
+    flex-direction: row;
+}
+.emidbox {
+    padding-left: 10px;
+}
+.phonenumber {
+    display: flex;
+    flex-direction: row;
+}
+.phnobox {
+    padding-left: 10px;
+}
+.bits-id {
+    display: flex;
+    flex-direction: row;
+}
+.bidbox {
+    padding-left: 10px;
+}
+input[type=text], input[type=tel] {
+    background-color: rgb(32, 25, 25);
+    color: rgb(56, 207, 174);
+    height: 20px;
+    border-radius: 5px;
+    width: 90%;
+    font: Raleway;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(56, 207, 174);
+    text-align: center;
+}
+.hostel {
+    display: flex;
+    flex-direction: row;
+}
+.hostelbox {
+    padding-left: 10px;
+}
+.hostelbox select {
+    background-color: rgb(32, 25, 25);
+    color: rgb(56, 207, 174);
+    border-style: none;
+    height: 20px;
+    border-radius: 5px;
+    width: 120%;
+    font: Raleway;
+    font-size: large;
+}
+.allsize {
+    display: flex;
+    flex-direction: row;
+}
+.sizebox {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 200px;
+    justify-content: space-around;
+}
+label {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.tandclabel {
+    border: none;
+    font-family: Raleway;
+    font-size: large;
+    padding: 0px;
+}
+input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+input[type=submit], input[type=reset] {
+  background-color: rgb(32, 25, 25);
+  border: solid;
+  color: rgb(56, 207, 174);
+  padding: 12px 32px;
+  margin: 4px 2px 0px -20px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 150px;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+    color: white;
+}
+.submitbutton, .resetbuttton{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+input:invalid {
+    border-color: red;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DVM Merchandise Signings</title>
+        <link rel="stylesheet" href="fmain.css" type="text/css">
+        <link rel="icon" href="dvm-logo.jpeg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script defer src="fscript.js" ></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="topic">
+                <h1>
+                    DVM MERCHANDISE SIGNINGS
+                </h1>
+            </div>
+        </header>   
+        <div class="sec1">
+            <div class="box1">
+                <div class="subtopic">
+                    <h2>
+                        Registration Form 
+                    </h2>
+                </div>  
+            </div>
+        </div>
+        <form name="merchForm" action="faction.php"  submit="return validateForm()" method="post" >
+            <main>
+                <div class="sec2">
+                    <div class="name">
+                        <div class="firstname">
+                            <div>
+                                <h3>
+                                    First Name
+                                </h3>
+                            </div>
+                            <div class="fnbox">
+                                <input type="text" id="firstname" class="fnin" placeholder="Harry" autofocus>
+                            </div>
+                        </div>
+                        <div class="lastname">
+                            <div>
+                                <h3>
+                                    Last Name
+                                </h3>
+                            </div>
+                            <div class="lnbox">
+                                <input type="text" id="lastname" class="lnin" placeholder="Potter">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-id">
+                        <div class="emidline">
+                            <h3>
+                                Email-ID
+                            </h3>
+                        </div>
+                        <div class="emidbox">
+                            <input type="text" id="email-address" placeholder="abcdefgh@gmail.com">
+                        </div>
+                    </div>
+                    <div class="phonenumber">
+                        <div class="phnoline">
+                            <h3>
+                                Phone Number
+                            </h3>
+                        </div>
+                        <div class="phnobox">
+                            <input type="tel" id="phonenumber" placeholder="9090909090" pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="bits-id">
+                        <div class="bidline">
+                            <h3>
+                                BITS-ID
+                            </h3>
+    
+                        </div>
+                        <div class="bidbox">
+                            <input type="text" id="bitsid" placeholder="2023A1PS0000P" pattern="[0-9]{4}[A-D]{1}[0-9]{1}PS[0-9]{4}P">
+                        </div>
+                    </div>
+                    <div class="hostel">
+                        <div class="hostelline">
+                            <h3>
+                                Hostel
+                            </h3>
+                        </div>
+                        <div class="hostelbox">
+                            <select name="hostel" id="hostel" multiple size="1" required>
+                                <option value="krishna">Krishna Bhawan</option>
+                                <option value="rp">RP Bhawan</option>
+                                <option value="sr">SR Bhawan</option>
+                                <option value="Gandhi">Gandhi Bhawan</option>
+                            </select>
+                        </div>
+    
+                    </div>
+                    <div class="allsize">
+                        <div class="sizeline">
+                            <h3>
+                                Size
+                            </h3>
+                        </div>
+                        <div class="sizebox">
+                            <div>
+                                <input type="radio" name="size" value="34">
+                            <label for="size">34</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="size" value="36">
+                            <label for="size">36</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="size" value="38">
+                            <label for="size">38</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="size" value="40">
+                            <label for="size">40</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tandc">
+                        <label class="tandclabel" for="tandc"><strong>Terms and Conditions</strong></label>
+                        <input type="checkbox" id="tc-checkbox" >
+                    </div>
+                    <div class="submitbutton">
+                        <input type="submit" >
+                    </div>
+                    <div class="resetbuttton">
+                        <input type="reset" >
+                    </div>
+                </div>
+            </main>
+
+        </form>
+        
+    </body>
+</html>
